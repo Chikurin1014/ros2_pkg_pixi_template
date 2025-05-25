@@ -1,0 +1,12 @@
+[workspace]
+authors = ["Chikurin1014 <chikurin1014@gmail.com>"]
+channels = ["robostack-jazzy", "conda-forge"]
+name = "ros2_pkg_pixi_template"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+ros-jazzy-desktop = ">=0.11.0,<0.12"
+colcon-common-extensions = ">=0.3.0,<0.4"

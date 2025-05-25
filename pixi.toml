@@ -13,3 +13,6 @@ docker = ["default"]
 [dependencies]
 ros-jazzy-desktop = ">=0.11.0,<0.12"
 colcon-common-extensions = ">=0.3.0,<0.4"
+
+[activation]
+scripts = ["install/setup.sh"]

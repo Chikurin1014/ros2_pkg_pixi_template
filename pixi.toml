@@ -5,6 +5,9 @@ name = "ros2_pkg_pixi_template"
 platforms = ["linux-64"]
 version = "0.1.0"
 
+[environments]
+docker = ["default"]
+
 [tasks]
 
 [dependencies]

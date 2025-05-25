@@ -13,10 +13,8 @@ services:
     tty: true
 
   work:
-    build:
-      context: ./.docker/work
-      args:
-        ros_distro: ${ROS_DISTRO}
+    image: ghcr.io/prefix-dev/pixi:latest
+    command: pixi shell -e docker
     user: "${USER_ID}:${GROUP_ID}"
     working_dir: /home/ubuntu/ros_ws/src/pkg
     volumes:
